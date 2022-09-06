@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(32, 33, 36);
+  margin: 0;
+}
+nav {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 48px;
+}
+nav ul {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li {
+  padding-left: 10px;
+  display: inline-block;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+nav .svg {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-right: 4px;
+  align-items: center;
+}
+nav .svg:hover,
+nav .nav-img:hover {
+  background-color: #313233;
+  border-radius: 50%;
+}
+.logo {
+  height: 245px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo img {
+  width: 272px;
+  height: 92px;
+}
+main {
+  margin-top: 7px;
+  height: 140px;
+  padding: 20px;
+}
+.search {
+  width: 582px;
+  height: 44px;
+  border: 1px solid rgb(83, 80, 80);
+  margin: auto;
+  border-radius: 20px;
+  padding: 5px 8px 0 14px;
+  display: flex;
+}
+.glasses {
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.search input {
+  all: unset;
+  color: #fff;
+  width: inherit;
+  margin-bottom: 5px;
+}
+.search:hover {
+  background-color: rgb(50, 50, 50);
+}
+.history {
+  width: 584px;
+  height: 58px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.history button {
+  height: 36px;
+  padding: 0px 16px;
+  line-height: 27px;
+  position: relative;
+  margin: 30px 5px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  color: #e8eaed;
+  font-size: 14px;
+  cursor: pointer;
+}
+main p {
+    text-align: center;
+    color: #bdc1c6;
+    line-height: 38px;
+    font-size: 13px;
+    margin-top: 25px;
+}
+main p span {
+    color: #8ab4f8;
+}
+main p span:hover {
+    text-decoration: underline;
+}
