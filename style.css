@@ -110,17 +110,52 @@ main {
   color: #e8eaed;
   font-size: 14px;
   cursor: pointer;
+  border-radius: 2px;
 }
-main p {
-    text-align: center;
-    color: #bdc1c6;
-    line-height: 38px;
-    font-size: 13px;
-    margin-top: 25px;
+.bahasa {
+  height: 244px;
+  font-size: 13px;
+  text-align: center;
+  color: rgb(189, 193, 198);
+  padding: 10px 0;
+  margin-top: 10px;
 }
-main p span {
-    color: #8ab4f8;
+.bahasa span {
+  color: #8ab4f8;
+  padding-left: 10px;
+  cursor: pointer;
 }
-main p span:hover {
-    text-decoration: underline;
+.bahasa span:hover {
+  text-decoration: underline;
+}
+.footer-1 {
+  color: #9aa0a6;
+  position: absolute;
+  bottom: 48.6px;
+  color: #fff;
+  height: 48.6px;
+  padding: 0 30px;
+  width: 100vw;
+  border-bottom: 1.5px solid rgb(60, 64, 67);
+  background-color: rgb(28, 28, 28);
+  font-size: 14px;
+  z-index: 1000;
+}
+.footer-2 {
+  color: #9aa0a6;
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  padding: 15px 10px;
+  justify-content: space-between;
+  background-color: rgb(28, 28, 28);
+  font-size: 13.5px;
+}
+.list {
+  padding: 5px;
+}
+.list span{
+  padding: 15px;
 }
