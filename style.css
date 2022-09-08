@@ -61,8 +61,8 @@ nav .nav-img:hover {
   justify-content: flex-end;
 }
 .logo img {
-  width: 272px;
-  height: 92px;
+  max-width: 272px;
+  max-height: 92px;
 }
 main {
   margin-top: 7px;
@@ -70,7 +70,7 @@ main {
   padding: 20px;
 }
 .search {
-  max-width: 582px;
+  width: 582px;
   height: 44px;
   border: 1px solid rgb(83, 80, 80);
   margin: auto;
@@ -164,8 +164,26 @@ main {
 .list span {
   padding: 15px;
 }
-@media screen and (max-width: 768px){
-  footer .footer-1, .footer-2{
+@media screen and (max-width: 768px) {
+  footer .footer-1,
+  .footer-2 {
     display: none;
+  }
+  .search {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .history button {
+    font-size: 12px;
+  }
+  .bahasa {
+    font-size: 10px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .search {
+    width: 350px;
   }
 }
